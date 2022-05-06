@@ -14,7 +14,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />} />
+      <Route path="/finalproj-netflixclone" element={<App />} />
       <Route path="/login" exact={true} element={<Login />} />
       <Route path="/register" exact={true} element={<Register />} />
       <Route path="/dashboard"  exact={true} element={<Dashboard />} />
