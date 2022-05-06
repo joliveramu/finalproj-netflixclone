@@ -1,6 +1,6 @@
 {
-  "name": "finalproj",
-  "homepage":"https://joliveramu.github.io/finalproj-netflixclone",
+  "name": "finalproj-netflixclone",
+  "homepage":"https://joliveramu.github.io/finalproj-netflixclone/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
