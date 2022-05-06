@@ -13,7 +13,7 @@ function MyAccount()
             <div className="container-fluid">
                 <h2>Update Account</h2>
                 <hr/>
-                <form method="GET" action="/Dashboard">
+                <form method="GET" action="/finalproj-netflixclone/Dashboard">
                 <label>Old Password</label>
                 <div className="form-group">
                     <input type="password" name="txtPasswordOld" id="txtPasswordOld" placeholder='Enter old password' required className="form-control" style={{width:"50%"}}/>

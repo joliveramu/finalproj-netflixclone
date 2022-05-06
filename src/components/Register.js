@@ -7,7 +7,7 @@ function Register()
             <div className='bg-dark p-2'>
                 <div className="row">
                 <div className="col-md-1">
-                    <h1 className="text-danger"><a href="/" className="text-danger" style={{textDecoration:"none"}}>Netflix</a></h1>    
+                    <h1 className="text-danger"><a href="/finalproj-netflixclone" className="text-danger" style={{textDecoration:"none"}}>Netflix</a></h1>    
                 </div>
                 <div className="col-md-9">
                      
@@ -19,7 +19,7 @@ function Register()
             </div>
             <h1 className="mt-5">Register</h1>
             <hr style={{width:"50%"}}/>
-            <form method="" className="form-group">
+            <form method="/finalproj-netflixclone/Dashboard" className="form-group">
                 <label>Username</label>
                 <div className="form-group">
                     <input type="text" id="txtUsername" style={{width: "50%"}} className="form-control"/><br/>

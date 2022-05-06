@@ -12,7 +12,7 @@ function Home()
                      
                 </div>
                 <div className="col-md-1">
-                    <a href="/login" className="btn btn-outline-danger text-light mt-2">Sign In</a> 
+                    <a href="/finalproj-netflixclone/login" className="btn btn-outline-danger text-light mt-2">Sign In</a> 
                 </div>
                 </div>
             </div>
@@ -23,7 +23,7 @@ function Home()
                 <div className='row'>
                     <div className='col-md-4'></div>
                     <div className='col-md-4'>
-                        <form method="get" action="/register">
+                        <form method="get" action="/finalproj-netflixclone/register">
                             <input type="email" id="txtEmail" placeholder='Enter your email' className='form-control mt-2'/>
                             <button type="submit" className="btn btn-danger mt-1">Get Started{">"}</button>
                         </form>

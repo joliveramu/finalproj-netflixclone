@@ -15,10 +15,10 @@ root.render(
     <BrowserRouter>
     <Routes>
       <Route path="/finalproj-netflixclone" element={<App />} />
-      <Route path="/login" exact={true} element={<Login />} />
-      <Route path="/register" exact={true} element={<Register />} />
-      <Route path="/dashboard"  exact={true} element={<Dashboard />} />
-      <Route path="/myaccount"  exact={true} element={<MyAccount />} />
+      <Route path="/finalproj-netflixclone/login" exact={true} element={<Login />} />
+      <Route path="/finalproj-netflixclone/register" exact={true} element={<Register />} />
+      <Route path="/finalproj-netflixclone/dashboard"  exact={true} element={<Dashboard />} />
+      <Route path="/finalproj-netflixclone/myaccount"  exact={true} element={<MyAccount />} />
     </Routes>
   </BrowserRouter>
   </React.StrictMode>
