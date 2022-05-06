@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import { BrowserRouter as HashRouter, Routes, Route} from 'react-router-dom';
 import Login from './components/Login';
 import Register from './components/Register';
 import Dashboard from './components/Dashboard';
@@ -12,7 +12,7 @@ import MyAccount from './components/MyAccount';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
     <Routes>
       <Route path="/finalproj-netflixclone" element={<App />} />
       <Route path="/finalproj-netflixclone/login" exact={true} element={<Login />} />
@@ -20,7 +20,7 @@ root.render(
       <Route path="/finalproj-netflixclone/dashboard"  exact={true} element={<Dashboard />} />
       <Route path="/finalproj-netflixclone/myaccount"  exact={true} element={<MyAccount />} />
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
   </React.StrictMode>
 );
 
